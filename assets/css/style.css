@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color: #333 !important;
+}
+
+section {
+    padding-top: 6em;
+    padding-bottom: 3em;
+}
+
+h1,
+h2 {
+    color: #f63855;
+}
+
+
+/* option */
+
+.section-title {
+    font-weight: 500;
+    font-size: 1.9em;
+}
+
+.btn-custom {
+    background-color: #f63855;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 35px;
+}
+
+
+/* navbar */
+
+nav {
+    background-color: #f63855 !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.9em;
+    color: #eee !important;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.navbar-nav .nav-link {
+    color: #eee !important;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+
+/* hero */
+
+.hero .hero-title {
+    color: #f63855;
+}
+
+.hero .hero-text {
+    font-weight: 300;
+}
+
+
+/* about */
+
+.about {
+    background-color: rgba(238, 238, 238, 0.4);
+}
+
+.about p {
+    font-weight: 300;
+    color: #f63855;
+}
+
+
+/* gallery */
+
+.gallery {
+    background-color: rgba(238, 238, 238, 0.4);
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgba(238, 238, 238, 0.4);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .copy {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+footer .copy span {
+    font-weight: 700;
+}
